@@ -1,4 +1,4 @@
-{"homepage":"http://Poorvi0807.github.io/Poorvi0807",
+{"homepage":"http://Poorvi0807.github.io/Poorvi0807.github.io",
   "name":"portfolio",
   "version":"0.1.0",
   "private":true,
@@ -21,4 +21,6 @@
       "deploy":"gh-pages -d build",
       "start":"react-scripts start",
       "build":"react-scripts build",
-      "test":"react-scripts test","eject":"react-scripts eject"},"eslintConfig":{"extends":["react-app","react-app/jest"]},"browserslist":{"production":[">0.2%","not dead","not op_mini all"],"development":["last 1 chrome version","last 1 firefox version","last 1 safari version"]}}
+      "test":"react-scripts test",
+      "eject":"react-scripts eject"},
+      "eslintConfig":{"extends":["react-app","react-app/jest"]},"browserslist":{"production":[">0.2%","not dead","not op_mini all"],"development":["last 1 chrome version","last 1 firefox version","last 1 safari version"]}}
