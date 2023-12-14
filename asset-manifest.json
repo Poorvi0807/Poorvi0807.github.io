@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Poorvi0807.github.io/static/css/main.3d576ec9.css",
-    "main.js": "/Poorvi0807.github.io/static/js/main.50982336.js",
-    "static/media/PT Project.png": "/Poorvi0807.github.io/static/media/PT Project.1c5eac43fe857d756150.png",
-    "static/media/project.png": "/Poorvi0807.github.io/static/media/project.8e70464b2cd099c3c3bf.png",
-    "static/media/project03.jpg": "/Poorvi0807.github.io/static/media/project03.4a614a8486618c427cba.jpg",
-    "static/media/Poorvi Singh Thakur.pdf": "/Poorvi0807.github.io/static/media/Poorvi Singh Thakur.55ca64922eaab8860ba2.pdf",
-    "static/media/Profile.JPG": "/Poorvi0807.github.io/static/media/Profile.64eb977320ce6776c010.JPG",
-    "index.html": "/Poorvi0807.github.io/index.html",
-    "main.3d576ec9.css.map": "/Poorvi0807.github.io/static/css/main.3d576ec9.css.map",
-    "main.50982336.js.map": "/Poorvi0807.github.io/static/js/main.50982336.js.map"
+    "main.css": "/static/css/main.3d576ec9.css",
+    "main.js": "/static/js/main.655ea61d.js",
+    "static/media/PT Project.png": "/static/media/PT Project.1c5eac43fe857d756150.png",
+    "static/media/project.png": "/static/media/project.8e70464b2cd099c3c3bf.png",
+    "static/media/project03.jpg": "/static/media/project03.4a614a8486618c427cba.jpg",
+    "static/media/Poorvi Singh Thakur.pdf": "/static/media/Poorvi Singh Thakur.55ca64922eaab8860ba2.pdf",
+    "static/media/Profile.JPG": "/static/media/Profile.64eb977320ce6776c010.JPG",
+    "index.html": "/index.html",
+    "main.3d576ec9.css.map": "/static/css/main.3d576ec9.css.map",
+    "main.655ea61d.js.map": "/static/js/main.655ea61d.js.map"
   },
   "entrypoints": [
     "static/css/main.3d576ec9.css",
-    "static/js/main.50982336.js"
+    "static/js/main.655ea61d.js"
   ]
 }
