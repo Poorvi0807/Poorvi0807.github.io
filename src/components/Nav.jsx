@@ -45,7 +45,7 @@ export const Nav = () => {
             >
              About
             </Link> */}
-            <a href="#about">About</a>
+            <a href="#about" className="nav-link about">About</a>
             <Link  className="nav-link skills" to={"skills"} as={ScrollLink} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
               w="100px"
