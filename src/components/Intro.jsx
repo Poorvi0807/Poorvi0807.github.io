@@ -2,7 +2,7 @@ import { Box, Button, Link, Text } from '@chakra-ui/react'
 import React from 'react'
 import { TypedText } from './TypedText';
 import Poorvi from './images/Profile.JPG'
-import resume from './resume/Poorvi Singh Thakur.pdf'
+import resume from './resume/poorvi-singh-thakur-resume.pdf'
 
 const handleclick = (url) => {
     const filename = url.split("/").pop();
@@ -35,7 +35,7 @@ export const Intro = () => {
 
                     <Text data-aos="zoom-out-up" data-aos-duration="1000" mt={"30px"} >
                         <Button size={["sm", "md", "md", "md"]} id="resume-button-2" onClick={() => handleclick(resume)}
-                            href="https://drive.google.com/file/d/1n4Q21LXrqXktQjE6R_pGAIL9Z_X7oX_k/view" as={Link}
+                            href="https://drive.google.com/file/d/1BGZ34AtS7GM4tpRrdxN3ohsOt-yxC96b/view?usp=sharing" as={Link}
                             target="_blank" download={true}
                             color={"white"}
 

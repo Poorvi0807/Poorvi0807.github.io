@@ -1,6 +1,6 @@
 import { Box, Button, Divider, Text, Link } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import resume from './resume/Poorvi Singh Thakur.pdf';
+import resume from './resume/poorvi-singh-thakur-resume.pdf';
 import { DownloadIcon, HamburgerIcon } from "@chakra-ui/icons";
 
 const handleClick = (url) => {
@@ -45,7 +45,7 @@ export const AboutMe = () => {
               size={["sm", "md", "md", "md"]}
               id="resume-button-2"
               onClick={() => handleClick(resume)}
-              href="https://drive.google.com/file/d/1n4Q21LXrqXktQjE6R_pGAIL9Z_X7oX_k/view"
+              href="https://drive.google.com/file/d/1BGZ34AtS7GM4tpRrdxN3ohsOt-yxC96b/view?usp=sharing"
               as={Link}
               target="_blank"
               download={true}
