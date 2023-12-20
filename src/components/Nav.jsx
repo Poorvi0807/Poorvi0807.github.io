@@ -110,7 +110,7 @@ export const Nav = () => {
           display={["flex", "flex", "flex", "none", "none"]}
         >
          
-              <Link
+              {/* <Link
                className="nav-link home"
                 as={ScrollLink}
               
@@ -128,8 +128,8 @@ export const Nav = () => {
                 Home
                 <Divider />
               </Link>
-              
-              <Link
+               */}
+              {/* <Link
                 as={ScrollLink}
                 className="nav-link about"
                 {...buttonProps}
@@ -217,7 +217,7 @@ export const Nav = () => {
               >
                 Contact
                 <Divider />
-              </Link>
+              </Link> */}
          
           <Button  className="nav-link resume"
             id="resume-link-1"
