@@ -38,14 +38,14 @@ export const Nav = () => {
             >
              Home
             </Link>
-            {/* <Link className="nav-link about" to={"about"} as={ScrollLink} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
+            <Link className="nav-link about" to={"about"} as={ScrollLink} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
               w="100px"
               _hover={{ bg: "gray.200", color:"#e4512d", borderRadius: "10px" }}
             >
              About
-            </Link> */}
-            <a href="#about" className="nav-link about">About</a>
+            </Link>
+            {/* <a href="#about" className="nav-link about">About</a> */}
             <Link  className="nav-link skills" to={"skills"} as={ScrollLink} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
               w="100px"
@@ -219,7 +219,7 @@ export const Nav = () => {
                 <Divider />
               </Link> */}
          
-          <Button  className="nav-link resume"
+          {/* <Button  className="nav-link resume"
             id="resume-link-1"
             margin="auto"
             as={Link}
@@ -235,7 +235,7 @@ export const Nav = () => {
           >
             <DownloadIcon marginRight="5px" />
             Resume
-          </Button>
+          </Button> */}
         </VStack>
       </Box>
     </Container>
