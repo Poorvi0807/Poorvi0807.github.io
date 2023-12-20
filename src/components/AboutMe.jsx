@@ -53,7 +53,7 @@ export const AboutMe = () => {
               _hover={{ bg: "gray.900", color: "#f3390a", borderRadius: "10px" }}
               bg={"#f8572f"}
             >
-            <a   className="nav-link resume"
+            <a className="nav-link resume"
             id="resume-link-2"
             margin="auto"
             as={Link}

@@ -31,28 +31,28 @@ export const Nav = () => {
       <Box className="nav" display={["none", "none", "none", "flex", "flex"]} w="50%" justifyContent="space-evenly"
       >
     
-            <Link id="nav-link home" className="nav-link home" to={"home"} as={ScrollLink}  spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
+            <Link className="nav-link home" to={"home"} as={ScrollLink}  spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
               w="100px"
               _hover={{ bg: "gray.200", color:"#e4512d", borderRadius: "10px" }}
             >
              Home
             </Link>
-            <Link id="nav-link about" className="nav-link about" to={"about"} as={ScrollLink} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
+            <Link className="nav-link about" to={"about"} as={ScrollLink} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
               w="100px"
               _hover={{ bg: "gray.200", color:"#e4512d", borderRadius: "10px" }}
             >
              About
             </Link>
-            <Link id="nav-link skills" className="nav-link skills" to={"skills"} as={ScrollLink} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
+            <Link  className="nav-link skills" to={"skills"} as={ScrollLink} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
               w="100px"
               _hover={{ bg: "gray.200", color:"#e4512d", borderRadius: "10px" }}
             >
              Skills
             </Link>
-            <Link id="nav-link projects" className="nav-link projects" to={"projects"} as={ScrollLink} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
+            <Link className="nav-link projects" to={"projects"} as={ScrollLink} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
               w="100px"
               _hover={{ bg: "gray.200", color:"#e4512d", borderRadius: "10px" }}
@@ -66,7 +66,7 @@ export const Nav = () => {
             >
              Statistics
             </Link>
-            <Link id="nav-link contact" className="nav-link contact" to={"contact"} as={ScrollLink}  spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
+            <Link className="nav-link contact" to={"contact"} as={ScrollLink}  spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
               w="100px"
               _hover={{ bg: "gray.200", color:"#e4512d", borderRadius: "10px" }}
