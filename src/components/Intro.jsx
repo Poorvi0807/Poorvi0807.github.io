@@ -46,7 +46,7 @@ export const Intro = () => {
                 </Box>
             </Box>
             <Box className='intro_right' data-aos="fade-down" data-aos-duration="1000">
-                <img className='home-img' src={Poorvi} alt="" style={{border:"2px solid #f3390a"}}/>
+                <img className='home-img' src={Poorvi} alt="" />
             </Box>
 
         </Box>
