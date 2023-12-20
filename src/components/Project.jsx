@@ -3,7 +3,7 @@ import React from 'react'
 import Myntra from './images/project03.jpg'
 import Honey from './images/project.png'
 import Hotel from './images/project04.jpg'
-import cycle from './images/PT Project.png'
+import cycle from './images/project.png'
 import { ProjectCard } from './ProjectCard'
 
 export const Project = () => {

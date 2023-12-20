@@ -226,7 +226,7 @@ export const Nav = () => {
             color="#f8572f"
             border="1px"
             borderRadius="10px"
-            href="https://drive.google.com/file/d/1c5tn3oRihetBMKptsGGx9Gk0hqRoZfUx/view?usp=sharing"
+            href="https://drive.google.com/file/d/1BGZ34AtS7GM4tpRrdxN3ohsOt-yxC96b/view?usp=sharing"
             download={true}
             onClick={()=>handleClick(resume)}
             id="resume-button-1"
