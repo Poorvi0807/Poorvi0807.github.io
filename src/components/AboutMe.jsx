@@ -1,8 +1,9 @@
 import { Box, Button, Divider, Text, Link } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import resume from './resume/Poorvi Singh Thakur.pdf';
+import { DownloadIcon, HamburgerIcon } from "@chakra-ui/icons";
 
-const handleclick = (url) => {
+const handleClick = (url) => {
   const filename = url.split("/").pop();
   const aTag = document.createElement("a");
   aTag.href = url;
@@ -43,7 +44,7 @@ export const AboutMe = () => {
             <Button
               size={["sm", "md", "md", "md"]}
               id="resume-button-2"
-              onClick={() => handleclick(resume)}
+              onClick={() => handleClick(resume)}
               href="https://drive.google.com/file/d/1n4Q21LXrqXktQjE6R_pGAIL9Z_X7oX_k/view"
               as={Link}
               target="_blank"
@@ -52,8 +53,26 @@ export const AboutMe = () => {
               _hover={{ bg: "gray.900", color: "#f3390a", borderRadius: "10px" }}
               bg={"#f8572f"}
             >
-              Download Resume
+            <a   className="nav-link resume"
+            id="resume-link-2"
+            margin="auto"
+            as={Link}
+            target="_blank"
+            variant="outline"
+            color="#f8572f"
+            border="1px"
+            borderRadius="10px"
+            href="https://drive.google.com/file/d/1BGZ34AtS7GM4tpRrdxN3ohsOt-yxC96b/view?usp=sharing"
+            download={true}
+            onClick={()=>handleClick(resume)}
+            
+          >
+            <DownloadIcon marginRight="5px" />Download Resume
+            </a>
+              {/* <a id="resume-link-2" >Download Resume</a> */}
+              
             </Button>
+        
           </Text>
           <Button fontSize={"large"} size={["sm", "lg", "lg", "md"]} color={"white"} _hover={{ bg: "gray.   200", color: "orangered", borderRadius: "10px" }} bg={"orangered"} onClick={handleReadMoreClick}
           mt={"10px"}

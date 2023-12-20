@@ -219,6 +219,7 @@ export const Nav = () => {
               </Link>
          
           <Button  className="nav-link resume"
+            id="resume-link-1"
             margin="auto"
             as={Link}
             target="_blank"
@@ -229,7 +230,7 @@ export const Nav = () => {
             href="https://drive.google.com/file/d/1BGZ34AtS7GM4tpRrdxN3ohsOt-yxC96b/view?usp=sharing"
             download={true}
             onClick={()=>handleClick(resume)}
-            id="resume-button-1"
+            
           >
             <DownloadIcon marginRight="5px" />
             Resume
