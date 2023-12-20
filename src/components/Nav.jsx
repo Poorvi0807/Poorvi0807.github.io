@@ -38,13 +38,14 @@ export const Nav = () => {
             >
              Home
             </Link>
-            <Link className="nav-link about" to={"about"} as={ScrollLink} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
+            {/* <Link className="nav-link about" to={"about"} as={ScrollLink} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
               w="100px"
               _hover={{ bg: "gray.200", color:"#e4512d", borderRadius: "10px" }}
             >
              About
-            </Link>
+            </Link> */}
+            <a href="#about">About</a>
             <Link  className="nav-link skills" to={"skills"} as={ScrollLink} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
               w="100px"
@@ -66,7 +67,7 @@ export const Nav = () => {
             >
              Statistics
             </Link>
-            <Link className="nav-link contact" to={"contact"} as={ScrollLink}  spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
+            <Link id="nav-link contact" className="nav-link contact" to={"contact"} as={ScrollLink}  spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
               w="100px"
               _hover={{ bg: "gray.200", color:"#e4512d", borderRadius: "10px" }}
