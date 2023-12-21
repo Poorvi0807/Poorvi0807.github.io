@@ -110,8 +110,8 @@ export const Nav = () => {
           display={["flex", "flex", "flex", "none", "none"]}
         >
          
-              {/* <Link
-               className="nav-link home"
+              <Link
+               className="nav-link homes"
                 as={ScrollLink}
               
                 {...buttonProps}
@@ -128,10 +128,10 @@ export const Nav = () => {
                 Home
                 <Divider />
               </Link>
-               */}
-              {/* <Link
+               
+              <Link
                 as={ScrollLink}
-                className="nav-link about"
+                className="nav-link abouts"
                 {...buttonProps}
                 width="100%"
                 color="brand"
@@ -149,7 +149,7 @@ export const Nav = () => {
               
               <Link
                 as={ScrollLink}
-                className="nav-link skills"
+                className="nav-link skill"
                 {...buttonProps}
                 width="100%"
                 color="brand"
@@ -167,7 +167,7 @@ export const Nav = () => {
               
               <Link
                 as={ScrollLink}
-                className="nav-link projects"
+                className="nav-link project"
                 {...buttonProps}
                 width="100%"
                 color="brand"
@@ -203,7 +203,7 @@ export const Nav = () => {
               
               <Link
                 as={ScrollLink}
-              className="nav-link contact"
+              className="nav-link contacts"
                 {...buttonProps}
                 width="100%"
                 color="brand"
@@ -217,9 +217,9 @@ export const Nav = () => {
               >
                 Contact
                 <Divider />
-              </Link> */}
+              </Link>
          
-          {/* <Button  className="nav-link resume"
+           <Button  className="nav-link resumes"
             id="resume-link-1"
             margin="auto"
             as={Link}
@@ -235,7 +235,7 @@ export const Nav = () => {
           >
             <DownloadIcon marginRight="5px" />
             Resume
-          </Button> */}
+          </Button>
         </VStack>
       </Box>
     </Container>
