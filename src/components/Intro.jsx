@@ -29,7 +29,7 @@ export const Intro = () => {
                         <Text mt={"20px"} letterSpacing={15}>
                             <Link href='https://github.com/Poorvi0807'  target="_blank" className='soco_icon' color={"#f3390a"}> <i class="fa-brands fa-github fa-xl"></i></Link>
                             <Link href='https://www.linkedin.com/in/poorvi-thakur-5203b21a3/'  target="_blank" className='soco_icon' color={"#f3390a"}><i class="fa-brands fa-linkedin fa-xl"></i></Link>
-                            <Link href='https://www.instagram.com/poorvi0807/'  target="_blank" className='soco_icon' color={"#f3390a"} ><i class="fa-brands fa-instagram fa-xl"></i></Link>
+{/*                             <Link href='https://www.instagram.com/poorvi0807/'  target="_blank" className='soco_icon' color={"#f3390a"} ><i class="fa-brands fa-instagram fa-xl"></i></Link> */}
                         </Text>
                         </Box>
 
