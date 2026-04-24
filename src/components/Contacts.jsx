@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const Contacts = () => {
-  const phoneNumber = '+91-7987174661';
+  const phoneNumber = '+91-7224983403';
   const email = 'poorvisinghthakur27@gmail.com';
 
   return (
@@ -19,7 +19,7 @@ export const Contacts = () => {
      data-aos-duration="1000">Social Media</p>
         <div style={styles.socialMediaLinks}>
         <a style={styles.socialMediaLink}  data-aos="fade-up"
-     data-aos-duration="1000" id="contact-linkedin" target='_blank' href="https://www.linkedin.com/in/poorvi-thakur-5203b21a3/?originalSubdomain=in"><i class="fa-brands fa-linkedin  fa-2xl"></i></a>
+     data-aos-duration="1000" id="contact-linkedin" target='_blank' href="https://www.linkedin.com/in/poorvi-singh-thakur-73243a2a0/?originalSubdomain=in"><i class="fa-brands fa-linkedin  fa-2xl"></i></a>
           <a style={styles.socialMediaLink} target='_blank' data-aos="fade-up"
      data-aos-duration="1000" id="contact-github" href="https://github.com/Poorvi0807"><i class="fa-brands fa-github fa-2xl"></i></a>
         </div>

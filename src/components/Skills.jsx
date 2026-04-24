@@ -79,7 +79,7 @@ export const Skills = () => {
                   <img
                     className="skills-card-img"
                     id="fontSkill_img"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png"
+                    src="https://cdn-icons-png.freepik.com/512/5968/5968267.png?ga=GA1.1.47391274.1717838713"
                     alt="html5"
                   />{" "}
                   <Text className="skills-card-name" id="skillName">
@@ -103,7 +103,7 @@ export const Skills = () => {
                   <img
                     className="skills-card-img"
                     id="fontSkill_img"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
+                    src="https://cdn-icons-png.freepik.com/512/5968/5968292.png?ga=GA1.1.47391274.1717838713"
                     alt="javascript"
                   />{" "}
                   <Text className="skills-card-name" id="skillName">
@@ -325,6 +325,77 @@ export const Skills = () => {
           </Box>
         </Box>
       </Box>
+      <Box id="SoftSkills_container" mt={"30px"}>
+  <Text
+    textAlign={"center"}
+    m={"auto"}
+    color={"black"}
+    borderRadius={"10px"}
+    border={"4px solid orangered"}
+    w={"max-content"}
+    fontWeight={"700"}
+    fontSize={"2xl"}
+    mb={"20px"}
+    px="12px"
+    py="6px"
+  >
+    Soft Skills
+  </Text>
+
+  <Box
+    display="grid"
+    gridTemplateColumns={[
+      "repeat(1,1fr)",
+      "repeat(2,1fr)",
+      "repeat(3,1fr)",
+      "repeat(4,1fr)",
+    ]}
+    gap="20px"
+    w="80%"
+    m="auto"
+  >
+    {[
+      {
+        name: "Effective Communication",
+        img: "https://cdn-icons-png.flaticon.com/512/1250/1250615.png",
+      },
+      {
+        name: "Problem Solving",
+        img: "https://cdn-icons-png.flaticon.com/512/2620/2620971.png",
+      },
+      {
+        name: "Teamwork",
+        img: "https://cdn-icons-png.flaticon.com/512/921/921347.png",
+      },
+      {
+    name: "Time Management",
+    img: "https://cdn-icons-png.flaticon.com/512/747/747310.png",
+  },
+    ].map((skill, i) => (
+      <Box
+        key={i}
+        border="4px solid orangered"
+        borderRadius="15px"
+        p="20px"
+        textAlign="center"
+        fontWeight="600"
+        cursor="pointer"
+        transition="0.3s"
+        _hover={{
+          transform: "scale(1.05)",
+        }}
+        data-aos="flip-up"
+      >
+        <img
+          src={skill.img}
+          alt={skill.name}
+          style={{ width: "60px", margin: "auto" }}
+        />
+        <Text mt="10px">{skill.name}</Text>
+      </Box>
+    ))}
+  </Box>
+</Box>
     </Box>
   );
 };

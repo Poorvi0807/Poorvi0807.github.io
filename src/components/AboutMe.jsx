@@ -2,7 +2,7 @@ import { Box, Button, Divider, Text, Link } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import resume from './resume/poorvi-singh-thakur-resume.pdf';
 import { DownloadIcon, HamburgerIcon } from "@chakra-ui/icons";
-
+import aboutImg from "./images/about_img.jpg";
 const handleClick = (url) => {
   const filename = url.split("/").pop();
   const aTag = document.createElement("a");
@@ -23,7 +23,14 @@ export const AboutMe = () => {
   return (
     <Box id="about" className="about section">
       <Box className='about_left' data-aos="fade-down">
-        <img src='https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz' />
+        <img src={aboutImg} alt="about" style={{
+     width: "100%",
+  maxWidth: "500px",
+  height: "auto",
+  objectFit: "cover",
+  transform: "translateY(-20px)"
+  }}  />
+        {/* <img src="../images/about_img.jpg" /> */}
       </Box>
       <Box className='about_right'>
         <Box data-aos-duration="1200">
@@ -45,7 +52,7 @@ export const AboutMe = () => {
               size={["sm", "md", "md", "md"]}
               id="resume-button-2"
               onClick={() => handleClick(resume)}
-              href="https://drive.google.com/file/d/1BGZ34AtS7GM4tpRrdxN3ohsOt-yxC96b/view?usp=sharing"
+              href="https://drive.google.com/file/d/1LeOXFHuxYfQcLOONpppl9hEU3wBT2jPE/view?usp=sharing"
               as={Link}
               target="_blank"
               download={true}
@@ -62,7 +69,7 @@ export const AboutMe = () => {
             color="#f8572f"
             border="1px"
             borderRadius="10px"
-            href="https://drive.google.com/file/d/1BGZ34AtS7GM4tpRrdxN3ohsOt-yxC96b/view?usp=sharing"
+            href="https://drive.google.com/file/d/1LeOXFHuxYfQcLOONpppl9hEU3wBT2jPE/view?usp=sharing"
             download={true}
             onClick={()=>handleClick(resume)}
             
@@ -95,7 +102,7 @@ export const AboutMe = () => {
                 <span style={{ color: "#03c8d7", fontWeight: "700" }}>
                   <i class="fa-solid fa-phone fa-lg"></i>
                 </span>
-                : +91 7987174661
+                : +91 7224983403
               </Text>
               <Divider />
               <Text mt={"10px"} className='more_detail_text'>

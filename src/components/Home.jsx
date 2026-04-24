@@ -19,7 +19,7 @@ export const Home = () => {
             <AboutMe />
 
             <Skills />
-
+            
             <Project />
 
             <Stats />

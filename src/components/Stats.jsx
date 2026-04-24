@@ -1,6 +1,7 @@
 import { Box, Container, Heading } from '@chakra-ui/react';
 import React from 'react';
 import GitHubCalendarComponent from './GitHubCalendarComponent';
+import langIMG from "./images/top_lang.png";
 
 export const Stats = () => {
     return (
@@ -10,18 +11,24 @@ export const Stats = () => {
             <Heading textAlign={'center'} fontSize={["2xl","3xl","4xl","4xl"]}> My github  <span  style={{ color: "orangered" }}>stats</span></Heading>
             <Box className='stat-container'>
                 <Box className='statone' data-aos="fade-up" >
-                    <img id="github-stats-card"
+                      <a href="https://awesome-github-stats.azurewebsites.net/index.html??cardType=level&fontFamily=&preferLogin=false">    
+                      <img  alt="Poorvi0807's GitHub Stats" src="https://awesome-github-stats.azurewebsites.net/user-stats/Poorvi0807?cardType=level&fontFamily=&preferLogin=false" />  </a>
+                    {/* <img id="github-stats-card"
                         src="https://github-readme-stats.vercel.app/api?username=Poorvi0807&theme=city_light&hide_border=false&include_all_commits=true&count_private=false"
-                        alt="GitHub Stats"/>
+                        alt="GitHub Stats"/> */}
                 </Box>
                 <Box className='stattwo' data-aos="fade-down" data-aos-duration="1000" > 
                 <img id="github-streak-stats"  src="https://github-readme-streak-stats.herokuapp.com/?user=Poorvi0807&theme=city_light&hide_border=false" alt="GitHub Streak Stats" />
                 </Box>
                 <Box className='statthree' data-aos="fade-up" data-aos-duration="1000" > 
-                   <img id="github-top-langs"
-                     src="https://github-readme-stats.vercel.app/api/top-langs/?username=Poorvi0807&theme=city_light&hide_border=false&include_all_commits=true&count_private=false&layout=compact"
-                     alt="GitHub Top Languages"
-                   />
+                    <img src={langIMG} alt="about"  style={{
+      width: "100%",
+      height: "auto"
+    }}/>
+                   {/* <img id="github-top-langs" */}
+                     {/* src="https://github-readme-stats.vercel.app/api/top-langs/?username=Poorvi0807&theme=city_light&hide_border=false&include_all_commits=true&count_private=false&layout=compact" */}
+                     {/* alt="GitHub Top Languages" */}
+                   {/* /> */}
                 </Box>
             </Box>
         </Box>
